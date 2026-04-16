@@ -64,7 +64,7 @@ export default function TermsOfService() {
             <h2 className="text-xl font-bold text-white mb-3">5. Subscriptions and Payments</h2>
             <ul className="list-disc pl-6 space-y-2">
               <li><strong className="text-white">Free tier:</strong> Limited features as described in the app</li>
-              <li><strong className="text-white">Pro and Team tiers:</strong> Paid subscriptions managed through Apple App Store or Google Play Store</li>
+              <li><strong className="text-white">Pro and Team tiers:</strong> Paid subscriptions managed through the Apple App Store</li>
               <li>Refunds are handled by the respective app store per their policies</li>
             </ul>
           </section>
