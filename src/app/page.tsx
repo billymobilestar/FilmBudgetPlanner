@@ -473,7 +473,8 @@ function Pricing() {
               <span className="text-4xl font-extrabold font-mono">$4.99</span>
               <span className="text-text-muted">/month</span>
             </div>
-            <p className="text-text-secondary text-sm mb-8">For serious filmmakers</p>
+            <p className="text-text-secondary text-sm mb-2">For serious filmmakers</p>
+            <p className="text-lime text-xs font-semibold mb-6">7-day free trial included</p>
             <ul className="space-y-3 mb-8">
               {[
                 "Unlimited productions",
@@ -493,7 +494,7 @@ function Pricing() {
               ))}
             </ul>
             <button className="w-full py-3 rounded-xl bg-lime text-black text-sm font-bold hover:bg-lime-dark transition-colors cursor-default">
-              Start Pro Trial
+              Start 7-Day Free Trial
             </button>
             <p className="text-center text-xs text-text-muted mt-3">or $39.99/year (save 33%)</p>
           </div>
