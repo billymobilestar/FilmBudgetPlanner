@@ -178,9 +178,15 @@ function Hero() {
         <div className="flex flex-col lg:flex-row items-center gap-16">
           {/* Text */}
           <div className="flex-1 text-center lg:text-left">
-            <div className="inline-flex items-center gap-2 bg-lime/10 border border-lime/20 rounded-full px-4 py-1.5 mb-6">
+            <div className="inline-flex items-center gap-2 bg-lime/10 border border-lime/20 rounded-full px-4 py-1.5 mb-4">
               <span className="w-2 h-2 rounded-full bg-lime animate-pulse" />
-              <span className="text-sm text-lime font-medium">Now available on iOS &amp; Android</span>
+              <span className="text-sm text-lime font-medium">Now available on iOS</span>
+            </div>
+            <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-1.5 mb-6 ml-2">
+              <svg className="w-4 h-4 text-lime" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span className="text-sm text-white font-medium">7 days free &mdash; no card needed</span>
             </div>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-[1.1] tracking-tight mb-6">
               Budget Smarter.
@@ -433,10 +439,16 @@ function Pricing() {
           <h2 className="text-3xl md:text-5xl font-extrabold mb-4">
             Simple, transparent pricing
           </h2>
-          <p className="text-text-secondary text-lg max-w-2xl mx-auto">
-            Start for free. Upgrade when you&apos;re ready for unlimited productions
-            and pro features.
+          <p className="text-text-secondary text-lg max-w-2xl mx-auto mb-6">
+            Start with a free 7-day trial &mdash; no credit card required.
+            Unlimited access to every feature, right from day one.
           </p>
+          <div className="inline-flex items-center gap-2 bg-lime/10 border border-lime/20 rounded-full px-5 py-2">
+            <svg className="w-4 h-4 text-lime" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+            </svg>
+            <span className="text-sm text-lime font-semibold">No credit card. Cancel anytime.</span>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
@@ -447,9 +459,9 @@ function Pricing() {
               <span className="text-4xl font-extrabold font-mono">$0</span>
               <span className="text-text-muted">/month</span>
             </div>
-            <p className="text-text-secondary text-sm mb-8">Perfect for getting started</p>
+            <p className="text-text-secondary text-sm mb-8">Limited access after your 7-day trial ends</p>
             <ul className="space-y-3 mb-8">
-              {["2 productions", "5 AI estimates/day", "PDF export (with watermark)", "Basic reports"].map((f) => (
+              {["2 productions", "AI rate estimates", "PDF export (with watermark)", "Basic reports"].map((f) => (
                 <li key={f} className="flex items-center gap-2 text-sm text-text-secondary">
                   <svg className="w-4 h-4 text-text-muted flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
