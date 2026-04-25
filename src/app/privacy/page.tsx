@@ -2,8 +2,18 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - Film Budget Planner",
-  description: "Film Budget Planner privacy policy.",
+  title: "Privacy Policy",
+  description:
+    "Film Budget Planner privacy policy — what data we collect, how it's used, and your rights.",
+  alternates: {
+    canonical: "/privacy",
+  },
+  openGraph: {
+    title: "Privacy Policy | Film Budget Planner",
+    description:
+      "Film Budget Planner privacy policy — what data we collect, how it's used, and your rights.",
+    url: "https://www.filmbudgetplanner.com/privacy",
+  },
 };
 
 export default function PrivacyPolicy() {

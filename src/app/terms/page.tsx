@@ -2,8 +2,18 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Terms of Service - Film Budget Planner",
-  description: "Film Budget Planner terms of service.",
+  title: "Terms of Use",
+  description:
+    "Film Budget Planner terms of use — your rights, our responsibilities, and how the service works.",
+  alternates: {
+    canonical: "/terms",
+  },
+  openGraph: {
+    title: "Terms of Use | Film Budget Planner",
+    description:
+      "Film Budget Planner terms of use — your rights, our responsibilities, and how the service works.",
+    url: "https://www.filmbudgetplanner.com/terms",
+  },
 };
 
 export default function TermsOfService() {
