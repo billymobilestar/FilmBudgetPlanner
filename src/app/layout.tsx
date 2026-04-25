@@ -121,6 +121,10 @@ const jsonLd = {
       description:
         "Professional budget planning app for filmmakers, producers, and production managers. AI-powered rate estimates, team collaboration, PDF and CSV exports.",
       url: SITE_URL,
+      downloadUrl:
+        "https://apps.apple.com/ca/app/film-budget-planner/id6761828159",
+      installUrl:
+        "https://apps.apple.com/ca/app/film-budget-planner/id6761828159",
       image: `${SITE_URL}/opengraph-image`,
       author: {
         "@type": "Organization",
